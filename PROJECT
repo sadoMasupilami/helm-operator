@@ -1,8 +1,8 @@
-domain: my.domain
+domain: mklug.at
 layout: helm.sdk.operatorframework.io/v1
 projectName: helm-operator
 resources:
-- group: webserver-helm.mklug.at
+- group: webserver-helm
   kind: Nginx
   version: v1alpha1
 version: 3-alpha

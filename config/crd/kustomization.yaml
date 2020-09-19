@@ -2,5 +2,5 @@
 # since it depends on service name and namespace that are out of this kustomize package.
 # It should be run by config/default
 resources:
-- bases/webserver-helm.mklug.at.my.domain_nginxes.yaml
+- bases/webserver-helm.mklug.at_nginxes.yaml
 # +kubebuilder:scaffold:crdkustomizeresource

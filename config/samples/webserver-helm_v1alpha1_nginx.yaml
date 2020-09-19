@@ -1,4 +1,4 @@
-apiVersion: webserver-helm.mklug.at.my.domain/v1alpha1
+apiVersion: webserver-helm.mklug.at/v1alpha1
 kind: Nginx
 metadata:
   name: nginx-sample

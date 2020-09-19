@@ -5,7 +5,7 @@ metadata:
   name: nginx-viewer-role
 rules:
 - apiGroups:
-  - webserver-helm.mklug.at.my.domain
+  - webserver-helm.mklug.at
   resources:
   - nginxes
   verbs:
@@ -13,7 +13,7 @@ rules:
   - list
   - watch
 - apiGroups:
-  - webserver-helm.mklug.at.my.domain
+  - webserver-helm.mklug.at
   resources:
   - nginxes/status
   verbs:

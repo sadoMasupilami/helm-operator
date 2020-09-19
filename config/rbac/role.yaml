@@ -29,10 +29,10 @@ rules:
   - create
 
 ##
-## Rules for webserver-helm.mklug.at.my.domain/v1alpha1, Kind: Nginx
+## Rules for webserver-helm.mklug.at/v1alpha1, Kind: Nginx
 ##
 - apiGroups:
-  - webserver-helm.mklug.at.my.domain
+  - webserver-helm.mklug.at
   resources:
   - nginxes
   - nginxes/status
