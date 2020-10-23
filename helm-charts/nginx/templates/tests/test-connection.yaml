@@ -11,5 +11,5 @@ spec:
       command: ['sh']
       args:
         - "-c"
-        - "sleep 10 && curl {{ .Release.Name }} | grep '{{ .Values.mesage }}asdasdsadasd'"
+        - "sleep 10 && curl {{ .Release.Name }} | grep '{{ .Values.mesage }}'"
   restartPolicy: Never
